@@ -11,7 +11,8 @@
 ## 技术栈
 1. solidity
 2. hardhat（部署并校验）
-3. chainlink/env-enc（变量加密）
+3. js/ts
+4. chainlink/env-enc（变量加密）
 
 ## 部署合约(没有使用ignition)
 npx hardhat run scripts/deployCryptoBeardedDragon.js --network sepolia
