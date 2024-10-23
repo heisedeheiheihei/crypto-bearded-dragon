@@ -2,8 +2,9 @@ const { ethers } = require("hardhat")
 
 async function main() {
     const CBDFactory = await ethers.getContractFactory("CryptoBeardedDragon");
-
+    
     const CBDDeployment = await CBDFactory.deploy();
+    console.log("contract deploying")
 
     await CBDDeployment.waitForDeployment();
     console.log("contract has been deployed, address: ", CBDDeployment.target)
