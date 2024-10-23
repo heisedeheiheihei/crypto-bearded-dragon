@@ -5,8 +5,8 @@
 1. 初代创建
 2. 父+母繁衍，每一子代数量为0-10之间的随机数
 3. 所有权可转让
-4. remix部署sepolia线上合约地址 https://sepolia.etherscan.io/address/0x52C5446887C4B1fA03D522D8fAce5DCCa5b68DDa
-5. hardhat部署sepolia线上合约地址 https://sepolia.etherscan.io/address/0xbC41000C43D346d6000284f9F42b0A7Ed7B48fb3
+4. 可使用 remix 单独部署合约到sepolia链上
+5. 可使用 hardhat 部署到sepolia链上并验证
 
 ## 技术栈
 1. solidity
